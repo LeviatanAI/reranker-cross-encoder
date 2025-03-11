@@ -3,6 +3,7 @@
 
 ## Introduction
 This project proposes a lightweight and high-performance Reranker specifically designed to refine document selection in RAG systems. By combining a bi-encoder and a cross-encoder, our solution improves the relevance of retrieved documents, thereby reducing errors and hallucinations in generative models such as GPT or Llama. <br/>
+<br/>
 📌 Main features: <br/>
 📖 Dataset Construction: Prepares data using French QA sources such as PIAF, FQuAD, SQuAD-French, and pandora-s-ragneural-bridge-rag-dataset-12000-google-translated. <br/> 
 🏋️ Cross-encoder Fine-tuning: Improves document reranking by training a cross-encoder model. <br/> 
@@ -10,11 +11,13 @@ This project proposes a lightweight and high-performance Reranker specifically d
 
 
 ## Structure du projet
+```
 📂 French-RAG-Reranker <br/>
-├── 📜 reranker_prepare_dataset.ipynb   # Data preparation<br/>
-├── 📜 reranker_fine_tuning.ipynb       # Reranker fine-tuning <br/>
+├── 📜 reranker_prepare_dataset.ipynb    # Data preparation<br/>
+├── 📜 reranker_fine_tuning.ipynb        # Reranker fine-tuning <br/>
 ├── 📜 benchmark.ipynb                   # Benchmark and model comparison<br/>
 └── 📜 README.md                         # Project documentation<br/>
+```
 
 ## Usage
 Note: The notebooks contain basic implementations, but you may need to adjust the data sources and parameters based on your testing environment.
