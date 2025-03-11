@@ -13,10 +13,10 @@ This project proposes a lightweight and high-performance Reranker specifically d
 ## Structure du projet
 ```
 📂 French-RAG-Reranker <br/>
-├── 📜 reranker_prepare_dataset.ipynb    # Data preparation<br/>
-├── 📜 reranker_fine_tuning.ipynb        # Reranker fine-tuning <br/>
-├── 📜 benchmark.ipynb                   # Benchmark and model comparison<br/>
-└── 📜 README.md                         # Project documentation<br/>
+├── 📜 reranker_prepare_dataset.ipynb    # Data preparation
+├── 📜 reranker_fine_tuning.ipynb        # Reranker fine-tuning
+├── 📜 benchmark.ipynb                   # Benchmark and model comparison
+└── 📜 README.md                         # Project documentation
 ```
 
 ## Usage
